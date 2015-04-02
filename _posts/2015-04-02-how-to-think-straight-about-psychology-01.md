@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      读书笔记：How to Think Straight about Psychology(一)
-date:       2015-04-01 19:58:00
+date:       2015-04-02 19:58:00
 #summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: Psychology
 ---
