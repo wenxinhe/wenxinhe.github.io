@@ -1,8 +1,8 @@
 # Site settings
-title:       tHis mY L!ve
+title:       tHis's mY L!ve
 email:       wenxin.he@gmail.com
 author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Blogs hosted on Github"
 baseurl:     ""
 url:         "http://wenxinhe.github.io"
 
@@ -19,8 +19,8 @@ show_post_footers:  false
 disqus_shortname:
 
 # Social icons
-show_social_icons: false
-github_username:
+show_social_icons: true
+github_username: wenxinhe
 stackoverflow_id:
 twitter_username:
 google_plus_id:
@@ -30,12 +30,12 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
-share_googleplus: false
+share_twitter: true
+share_googleplus: true
 share_linkedin: false
 share_digg: false
 share_tumblr: false
