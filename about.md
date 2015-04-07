@@ -1,19 +1,16 @@
 ---
 layout: page
-title: About Pixyll
+title: About Vincent HE
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+# 何文鑫
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+联系方式
 
-Thanks to the following:
+* Github：[https://github.com/wenxinhe](https://github.com/wenxinhe)
+* E-mail：wenxin.he@gmail.com
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+我不愿成为一个有保障的市民。我是不会选择去做一个普通人的，如果能够做到的话，我有权成为一位不寻常的人，我寻找机会，但我不寻找安稳，我不希望在国家的照顾下成为一名有保障的市民，那将被人瞧不起而使我痛苦不堪。我要作有意义的冒险，我要梦想，我要创造，我要失败，我也要成功！我拒绝用刺激来换取施舍，我宁愿向生活挑战，而不愿过着有保证的生活，宁愿要达到目的的激动而不要乌托邦或毫无生气的平静。我不会拿我的自由去与慈善作交易，也不会拿我的尊严去与发给乞丐的食物作交易，我决不会在任何一位大师面前发抖，也不会为任何恐吓所屈。我的天性是挺胸直前骄傲而无所畏惧，我勇敢地面对这个世界，自豪地说：在上帝的帮助下，我已经做到了。 
+
+-- 企业家宣言
