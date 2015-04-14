@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Coach Lession：头像照片
+title:      Coach Lession：头像照片的教训
 date:       2015-04-14 15:37
 #summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: Coach Lession
