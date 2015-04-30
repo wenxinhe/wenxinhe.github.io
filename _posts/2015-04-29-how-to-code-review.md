@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      使用IntelliJ+SonarQube高效代码走查
+title:      使用IntelliJ + SonarQube高效代码走查
 date:       2015-04-29 19:53
 #summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: tech
