@@ -5,10 +5,10 @@ date:       2015-04-29 19:53
 #summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: tech
 ---
-# 为什么要代码走查
+## 为什么要代码走查
 敏捷内建质量的要求，代码是债务，代码走查可以减少技术债(technical debt)，保持cost of changes
 
-# 代码走查常见痛点
+## 代码走查常见痛点
 * 时间长
  + 需要走查代码多
  + 讨论业务细节
@@ -18,9 +18,9 @@ categories: tech
 * 效果不明显
  + 代码走查想做的事太多：知识传递、提升技能、业务交流、消除模块壁垒，结果很可能什么目的都没有达到
 
-# 怎样才能高效代码走查
+## 怎样才能高效代码走查
 
-## 高效走查的前提
+### 高效走查的前提
 
 要做到高效代码走查需要具备两个前提条件：
 
@@ -33,7 +33,7 @@ categories: tech
 
 至于“好”的标准，需要在代码走查中达成共识。
 
-## 走查时机的选择
+### 走查时机的选择
 
 代码走查的时机一般有两种：
 
@@ -47,16 +47,16 @@ categories: tech
 
 相比第一种走查方式，每日代码走查能够更好的圈定走查范围，并且在功能/故事开发中提出建议，团队成员也更乐于接受。
 
-## 确定走查级别
+### 确定走查级别
 
 框定范围：cleancode, tech debt
 
 
-## 确定走查流程：
+### 确定走查流程：
 走查的时机确定了，级别确定了，那走查的范围就确定了。下面看走查的流程如何进行。
 http://www.sonarqube.org/effective-code-review-with-sonar/
 
-## 常见的走查效率提升工具
+### 常见的走查效率提升工具
 intellij diff:
 
 intellij sonarqube plugin
