@@ -51,7 +51,7 @@ categories: tech
 
 IntelliJ的Changes功能
 
-![IntelliJ的Changes功能](/_posts/diff.JPG)
+![IntelliJ的Changes功能](/images/diff.JPG)
 
 ### 确定走查关注点
 
@@ -69,7 +69,7 @@ IntelliJ的Changes功能
 
 SonarQube能很好的帮助我们聚焦关注点。它会根据严重程度列出项目的所有“问题”，而这些问题大多是关于代码整洁以及技术债务方面的。团队只需要按照优先级选择“问题”进行指派解决即可。
 
-![sonar-issue](sonar-issue.JPG)
+![sonar-issue](/images/sonar-issue.JPG)
 
 ### 确定走查流程：
 代码走查的时机确定了，关注点确定了，走查的范围就确定了。
