@@ -50,7 +50,8 @@ categories: tech
 高效代码走查需要高效工具的支撑。能够比较每日增量代码diff工具很多，IDE是其中之一。IDE的优势很明显，它除了获取增量代码还可以极方便对代码进行导航浏览，相对于svn自带的diff工具，IDE在这方面效率非常高。
 
 IntelliJ的Changes功能
-![sdfsd](diff.JPG)
+
+![IntelliJ的Changes功能](/_posts/diff.JPG)
 
 ### 确定走查关注点
 
@@ -68,7 +69,7 @@ IntelliJ的Changes功能
 
 SonarQube能很好的帮助我们聚焦关注点。它会根据严重程度列出项目的所有“问题”，而这些问题大多是关于代码整洁以及技术债务方面的。团队只需要按照优先级选择“问题”进行指派解决即可。
 
-![](sonar-issue.JPG)
+![sonar-issue](sonar-issue.JPG)
 
 ### 确定走查流程：
 代码走查的时机确定了，关注点确定了，走查的范围就确定了。
