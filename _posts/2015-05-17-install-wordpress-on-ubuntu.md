@@ -2,7 +2,7 @@
 layout:     post
 title:      Ubuntu上安装Wordpress
 date:       2015-05-17 14:24
-#summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
+summary:    如何在Ubuntu上安装wordpress，以及所需要的Apache2、mysql、php。
 categories: tech
 ---
 ## 安装Apache2
