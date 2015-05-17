@@ -77,13 +77,12 @@ hello,world!!
 下载wordpress并解压到/var/www/html/下
 
 设置/var/www目录的文件执行读写权限
-
 ``` sudo chmod 777 /var/www``` 
 
 ## 安装wordpress
 
 如果apache2没有启动，启动apache，然后访问http://127.0.0.1/wordpress/wp-admin/install.php，按照要求一步步输入需要的信息（数据库名wordpress，数据库用户名wordpress_root、密码123456）,系统会自动创建好wp-config.php,然后启动，进入管理后台。
 
-[管理后台](wordpress-admin-page.png)
+![管理后台](/images/wordpress_admin_page.png)
 
-[主页](wordpress-home-page.png)
+![主页](/images/wordpress_home_page.png)
