@@ -65,7 +65,7 @@ public class DAPBigDataServiceComponent
 
 测试用例：
 
-```
+```Java
 @RunWith(MockitoJUnitRunner.class)
 public class DAPBigDataServiceComponentTest
 {
@@ -114,7 +114,7 @@ public class DAPBigDataServiceComponentTest
 
 示例代码：
 
-```
+```Java
 public class DAPBigDataServiceComponentFactory
 {
     public DAPBigDataServiceComponent createDAPBigDataServiceComponent(
@@ -138,6 +138,8 @@ public class DAPBigDataServiceComponentFactory
 Setter依赖注入，是提供setter方法对依赖进行注入。
 
 示例代码：
+
+```Java
 public class DAPBigDataServiceComponent
 {
     private static final DebugPrn LOGGER = new DebugPrn(DAPBigDataServiceComponent.class.getName());
@@ -163,8 +165,11 @@ public class DAPBigDataServiceComponent
     }
     ......
 }
+```
 
 测试用例：
+
+```Java
 @RunWith(MockitoJUnitRunner.class) 
 public class DAPBigDataServiceComponentTest
 {
@@ -196,6 +201,7 @@ when(serviceManagerProxy.getDeploymentedService("1", ServiceEnum.SPARKSQL, "1" )
     }
     ......
 }
+```
 
 Setter依赖注入的缺点：
 
@@ -211,6 +217,8 @@ Setter依赖注入的缺点：
 Override依赖置换，是将依赖封装在对象方法中，由对象方法提供依赖对象的获取。当需要置换依赖对象时，通过Override该依赖提供方法进行依赖置换。
 
 代码示例：
+
+```Java
 public class InstallXmlValidator
 {
     ......
@@ -231,8 +239,11 @@ public class InstallXmlValidator
 
     }
 }
+```
 
 测试用例：
+
+```Java
 public class InstallXmlValidatorTest
 {
     private InstallXmlValidator validator;
@@ -265,6 +276,7 @@ public class InstallXmlValidatorTest
     }
     ......
 }
+```
 
 Override依赖置换的缺点：
 同Setter依赖注入的缺点。
