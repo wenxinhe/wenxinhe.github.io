@@ -133,6 +133,8 @@ WWWHAT？？！！这个测试用例竟然直接通过了！！
 
 [![](/images/a_tale_of_sonar_issue/Image [18].png)](/images/a_tale_of_sonar_issue/Image [18].png)
 
+[![](/images/a_tale_of_sonar_issue/Image [19].png)](/images/a_tale_of_sonar_issue/Image [19].png)
+
 太坑die了，close()的确没问题，public synchronized我们也能支持，但是PhysicalConnection竟然是package可见，怪不得DBResource无法访问到，而且jdk的异常信息也有bug，没有针对这种情况的提示。
 
 现在可以通过测试用例复现这种场景了，这种场景的复现还比较需要点小技巧。
@@ -143,27 +145,27 @@ WWWHAT？？！！这个测试用例竟然直接通过了！！
 
 这样，就复现了该问题场景：
 
-[![](/images/a_tale_of_sonar_issue/Image [19].png)](/images/a_tale_of_sonar_issue/Image [19].png)
-
 [![](/images/a_tale_of_sonar_issue/Image [20].png)](/images/a_tale_of_sonar_issue/Image [20].png)
 
 [![](/images/a_tale_of_sonar_issue/Image [21].png)](/images/a_tale_of_sonar_issue/Image [21].png)
 
-并且，错误提示信息与报告的一致：
-
 [![](/images/a_tale_of_sonar_issue/Image [22].png)](/images/a_tale_of_sonar_issue/Image [22].png)
 
+并且，错误提示信息与报告的一致：
+
 [![](/images/a_tale_of_sonar_issue/Image [23].png)](/images/a_tale_of_sonar_issue/Image [23].png)
+
+[![](/images/a_tale_of_sonar_issue/Image [24].png)](/images/a_tale_of_sonar_issue/Image [24].png)
 
 OK，现在终于可以开工修改生产代码了。
 
 其实，生产代码只需要添加一行Method.setAssesible(true);就可以让测试用例通过：
 
-[![](/images/a_tale_of_sonar_issue/Image [24].png)](/images/a_tale_of_sonar_issue/Image [24].png)
+[![](/images/a_tale_of_sonar_issue/Image [25].png)](/images/a_tale_of_sonar_issue/Image [25].png)
 
 所有测试用例执行通过。
 
-[![](/images/a_tale_of_sonar_issue/Image [25].png)](/images/a_tale_of_sonar_issue/Image [25].png)
+[![](/images/a_tale_of_sonar_issue/Image [26].png)](/images/a_tale_of_sonar_issue/Image [26].png)
 
 OK，提交代码，喝咖啡。
 
