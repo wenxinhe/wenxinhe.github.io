@@ -24,4 +24,5 @@ categories: tech
 
 仔细考虑异常处理后，认为传入的resource对象不应该出现没有close()的情况，如果出现了，一定是编码的bug，因此果断将代码改成以下处理方式：对于无法找到close()时抛出的NoSuchMethodException转义成IllegalStateException继续抛出，如下：
 
-![Image1](/images/a_tale_of_sonar_issue/Image [1].png)
+[![Image1](/images/a_tale_of_sonar_issue/Image [1].png)](/images/a_tale_of_sonar_issue/Image [1].png)
+
