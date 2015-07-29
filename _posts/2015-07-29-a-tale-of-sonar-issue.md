@@ -17,7 +17,7 @@ categories: tech
 
 关键代码
 
-![关键代码(/images/a_tale_of_sonar_issue/Image.png)](/images/a_tale_of_sonar_issue/Image.png)
+[![关键代码](/images/a_tale_of_sonar_issue/Image.png)](/images/a_tale_of_sonar_issue/Image.png)
 
 ## SonarQube问题
 上面这段代码，SonarQube检查报告提示第53行，应该对异常进行日志记录。
