@@ -84,6 +84,7 @@ dpkg -i apt-transport-https_1.0.9.8.1_amd64.deb libapt-pkg4.12_1.0.9.8.1_amd64.d
 ### bundle install执行失败问题
 
 在运行admin_scripts/pull.sh时会使用bundle install安装ruby的gem，但是源服务器是国外的，不稳定，我在执行前将cyber-dojo/Gemfile中定义的源换为taobao的源：
+
 ```
 #source 'https://rubygems.org'
 source 'https://ruby.taobao.org'
